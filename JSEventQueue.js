@@ -73,10 +73,10 @@ function doSimulation()
 	var HANDLE_TIME = 3000;
 	
 	var eventsRemaining = MAX_NO_OF_EVENTS;
-	var timeStarted = new Date();
 	var totalWaitingTime = 0;
 	var waitingLine = [];
 	var currentFreeAgents = maxFreeAgents = askUserForNumberOfAgents();
+	var timeStarted = new Date();
 	var eventQueue = new EventQueue(new BinaryHeap());
 	
 	addRandomEventsToQueue(eventQueue, MAX_NO_OF_EVENTS, MAX_ARRIVAL_TIME);
