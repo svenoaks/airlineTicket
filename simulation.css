@@ -1,0 +1,34 @@
+table
+{
+	border-spacing:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#counters td
+{
+	font-size:4em;
+	text-align:center;
+	border:solid black 2px;
+	padding:15px;
+}
+h2, h4
+{
+	text-align:center;
+}
+#container
+{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+p
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width: 400px;
+}
+#bottom
+{
+	text-align:center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <head>
+      <title>JSEventQueue.html</title>
+      <link rel="stylesheet" type="text/css"
+      href="simulation.css" />
+      <script type="text/javascript" src="JSBinaryHeap.js">
+      </script>
+      <script type="text/javascript" src="JSEventQueue.js">
+      </script>
+    </head>
+    <div id="container">
+      <h2>Discrete Event Simulation</h2>
+      <h4>Simulating an airline ticket counter.</h4>
+      <table>
+        <tr>
+          <th>Free Ticket Agents</th>
+          <th>Waiting Customers</th>
+          <th>Remaining Events</th>
+        </tr>
+        <tr id="counters">
+          <td id="agents">0</td>
+          <td id="waiting">0</td>
+          <td id="remaining">0</td>
+        </tr>
+      </table>
+      <div id="bottom">
+        <p>50 customer arrival events over 60 seconds are used for the simulation,
+        with an agent taking 3 seconds to handle a customer.</p>
+		<h4>Average customer wait time: </h4>
+		<h4 id ="seconds">0.00 seconds</h4>
+        <input id="startSimulation" type="button"
+        value="Start simulation" onclick="doSimulation();" />
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
